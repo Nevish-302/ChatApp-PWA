@@ -1,7 +1,7 @@
 import { useState , useRef, useCallback} from "react"
 import './Chat.css'
 import Message from "./Message"
-import loadChats from "./LoadChats"
+import loadChats from "./loadChats"
 
 const Chat = (chat) => {
     const [pageNumber, setPageNumber] = useState(0)
