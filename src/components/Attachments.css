@@ -1,0 +1,15 @@
+.Attachments {
+    display: none;
+    background: #008000;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 999px;
+    position: absolute;
+    left: 70vw;
+    top:90vh;
+    justify-content: space-between;
+    padding: 7px 12px;
+    gap: 12px;
+}
+.AttachImage {
+    height: 1.5rem;
+}

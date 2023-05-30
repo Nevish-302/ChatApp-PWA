@@ -1,0 +1,15 @@
+
+.Chat {
+    background-color: #E5E5E0;
+    display: flex;
+    max-height: 80vh;
+    overflow-y: scroll;
+    flex-direction: column;
+    height: fit-content;
+}
+
+@media print {
+    .Chat{
+        display: flex;
+      }    
+}

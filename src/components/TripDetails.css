@@ -1,0 +1,61 @@
+.TripDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    color :black;
+    width: 100%;
+    top:0;
+    background-color: white;
+}
+.TripInfo {
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.TripName{
+    width: 90%;
+    margin: 20px 0;
+    text-align: left;
+    font-weight: 700;
+}
+.TDimage {
+    height: 1.25rem;
+    margin: 20px 16px;
+
+}
+.TripSD {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.SourceDestination {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.SD {
+    display: flex;
+}
+.FromTo{
+    color : #606060;
+    font-size: 16px;
+    padding-left: 16px;
+}
+.Location {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 700;
+    color: black;
+}
+.GroupImage
+{
+    margin-left: 12px;
+    height: 48px;
+    width: 48px;
+}
+@media print {
+    .TripDetails{
+      display:none;
+    }
+  }

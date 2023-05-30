@@ -1,0 +1,31 @@
+.ChatBox{
+    bottom: 0;
+    margin:auto;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAF9F4;
+    color: #B7B7B7;
+    padding: 10px 0px;
+}
+.TypeInHere {
+    line-height: 2rem;
+    color: #A7B7B7;
+    padding: .3rem .375rem;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 20px;
+    width: 90%;
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.TypeInHere :active {
+    border: none;
+}
+.ChatBoxIcons {
+    height: 1.25rem;
+    margin: .5315rem;
+    margin-bottom: -.3rem;
+}

@@ -1,0 +1,19 @@
+.MessageContent{
+    background-color: white;
+    color: #606060;
+    font-size: 14px;
+    width: 80%;
+    max-width: 20rem;
+    border-radius: 0px 12px 12px 12px;
+}
+.MessageSender{
+    margin-right: 8px;
+    height: 24px;
+    border-radius: 50%;
+}
+.Message{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
