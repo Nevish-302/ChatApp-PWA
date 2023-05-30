@@ -3,7 +3,7 @@ import './TripDetails.css'
 import back from '../assets/images/back.png'
 import edit from '../assets/images/edit.png'
 import options from '../assets/images/options.png'
-import Options from "./options"
+import Options from "./Options"
 import Members from '../assets/images/Meme.png'
 
 const TripDetails = ({data}) => {
