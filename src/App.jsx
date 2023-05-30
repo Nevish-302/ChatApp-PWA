@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import TripDetails from './components/tripDetails'
-import Chat from './components/chat'
-import ChatBox from './components/chatBox'
+import TripDetails from './components/TripDetails'
+import Chat from './components/Chat'
+import ChatBox from './components/ChatBox'
 
 function App() {
   const [data, setData] = useState({chats:[]})
