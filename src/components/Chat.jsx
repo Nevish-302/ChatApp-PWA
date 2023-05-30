@@ -1,5 +1,5 @@
 import { useState , useRef, useCallback} from "react"
-import './chat.css'
+import './Chat.css'
 import Message from "./Message"
 import loadChats from "./LoadChats"
 
