@@ -15,7 +15,7 @@ export default function loadChats(pageNumber) {
     let cancel
     axios({
       method: 'GET',
-      url: `http://3.111.128.67/assignment/chat?page=${pageNumber}`,
+      url: `https://3.111.128.67/assignment/chat?page=${pageNumber}`,
       cancelToken: new axios.CancelToken(c => cancel = c)
     }).then(res => {
         console.log(res, 'res')
