@@ -7,7 +7,7 @@ const Manifest = {
     description: "An app that contains chats for the trip planned.",
     icons: [
     {
-    src: "./src/assets/react.svg",
+    src: "./icon.png",
     sizes: "512x512",
     type: "image/png",
     purpose: "any maskable"
