@@ -12,7 +12,7 @@ const Manifest = {
     type: "image/png",
     purpose: "any maskable"
     },],
-    theme_color: "#ffffff",
+    theme_color: "#000000",
     background_color: "#esebf2",
     display: "standalone",
     scope: "/",
