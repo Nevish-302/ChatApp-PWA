@@ -10,6 +10,7 @@ const Manifest = {
     src: "./src/assets/react.svg",
     sizes: "512x512",
     type: "image/png",
+    purpose: "maskable"
     },],
     theme_color: "#ffffff",
     background_color: "#esebf2",
