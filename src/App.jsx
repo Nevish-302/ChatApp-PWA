@@ -8,14 +8,14 @@ import ChatBox from './components/ChatBox'
 function App() {
   const [data, setData] = useState({chats:[]})
   const importData = async () =>{
-    const Data = await fetch('https://3.111.128.67/assignment/chat?page=0').then(async dat => {
-      console.log(dat)
+    const Data = await fetch('https://qa.corider.in/assignment/chat?page=0').then(async dat => {
+      //console.log(dat)
       const jack =  await dat.json()
       setData(jack)
-      console.log(jack, "jack")
+      //console.log(jack, "jack")
     })
   }
-  console.log(data);
+  //console.log(data);
   useEffect(() => {
   importData();  
   }, [0])

@@ -15,12 +15,12 @@ export default function loadChats(pageNumber) {
     let cancel
     axios({
       method: 'GET',
-      url: `https://3.111.128.67/assignment/chat?page=${pageNumber}`,
+      url: `https://qa.corider.in/assignment/chat?page=${pageNumber}`,
       cancelToken: new axios.CancelToken(c => cancel = c)
     }).then(res => {
-        console.log(res, 'res')
+        //console.log(res, 'res')
       setChats(prevBooks => {
-        return [...new Set([...prevBooks, ...res.data.chats])]
+        return [...new Set([...res.data.chats, ...prevBooks])]
       })
       setLoading(false)
     }).catch(e => {

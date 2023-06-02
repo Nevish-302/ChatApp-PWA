@@ -2,7 +2,7 @@
 .Chat {
     background-color: #E5E5E0;
     display: flex;
-    max-height: 80vh;
+    max-height: calc(100vh - 185.59px);
     overflow-y: scroll;
     flex-direction: column;
     height: fit-content;
