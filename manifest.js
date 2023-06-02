@@ -1,13 +1,13 @@
 const Manifest = {
     registerType: "prompt",
-    includeAssets: ["./src/assets/images/attach.png", "./src/assets/images/back.png", "./src/assets/images/document.png", "./src/assets/images/edit.png", "./src/assets/images/members.png", "./src/assets/images/Meme.png", "./src/assets/images/options.png", "./src/assets/images/phone.png", "./src/assets/images/photo.png", "./src/assets/images/report.png", "./src/assets/images/send.png", "./src/assets/images/video.png"],
+    includeAssets: ["./src/assets/images/attach.png", "./src/assets/images/back.png", "./src/assets/images/document.png", "./src/assets/images/edit.png", "./src/assets/images/members.png", "./src/assets/images/Meme.png", "./src/assets/images/options.png", "./src/assets/images/phone.png", "./src/assets/images/photo.png", "./src/assets/images/report.png", "./src/assets/images/send.png", "./src/assets/images/video.png", "./icon.png"],
     manifest: {
     name: "Chat App PWA",
     short_name:"ChatApp",
     description: "An app that contains chats for the trip planned.",
     icons: [
     {
-    src: "icon.png",
+    src: "/icon.png",
     sizes: "512x512",
     type: "image/png",
     purpose: "any maskable"
